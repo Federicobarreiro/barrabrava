@@ -1,0 +1,182 @@
+.header {
+  background: black;
+  color: white;
+  padding: 32px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0; }
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto; }
+
+.header a {
+  color: white;
+  text-decoration: none; }
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.logo {
+  letter-spacing: 15px;
+  font-size: 1.3em; }
+
+.menu-icon {
+  display: none; }
+
+.navegacion ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.navegacion ul li {
+  display: inline-block; }
+
+.navegacion ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px; }
+
+.navegacion ul li a:hover {
+  background: #585858; }
+
+@media only screen and (max-width: 767px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem; }
+  .navegacion {
+    width: 100%;
+    margin-top: 1rem; }
+  .navegacion ul {
+    display: none; }
+  .navegacion ul.show {
+    display: block; }
+  .navegacion ul li {
+    display: block; }
+  .navegacion ul li a {
+    display: block;
+    padding: 0.5rem;
+    transition: all 0.4s linear;
+    border-radius: 5px; }
+  .navegacion ul li a:hover {
+    background: #585858; } }
+
+.footer {
+  background: #c8daaf;
+  text-align: center;
+  height: 10vh; }
+
+.main {
+  padding-top: 12rem;
+  background-image: url(../multimedia/vaso.jpg);
+  background-size: cover;
+  height: 70vh; }
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  letter-spacing: 15px; }
+
+.main p {
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  margin-top: 50px; }
+
+.main-nosotros {
+  display: flex;
+  padding-top: 12rem;
+  height: 90vh;
+  text-align: center; }
+
+.div-uno {
+  background-image: url(../multimedia/amigos.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 30%; }
+
+.div-uno h1 {
+  color: black; }
+
+.div-dos {
+  background: black;
+  height: 100%;
+  width: 70%;
+  overflow-y: auto; }
+
+.div-dos p {
+  margin: 20px;
+  color: white;
+  letter-spacing: 2px; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding-top: 12rem;
+  grid-auto-rows: 150px;
+  grid-gap: 10px; }
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+img:first-child {
+  grid-column: 1/3;
+  grid-row: 1/3; }
+
+img:nth-child(6) {
+  grid-column: 2/4;
+  grid-row: 3/5; }
+
+img:nth-child(10) {
+  grid-row: span 2; }
+
+.aside {
+  background: black;
+  height: 40vh; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center; }
+
+.flex-item {
+  width: 25%;
+  height: 60%;
+  text-align: center;
+  border-radius: 10%;
+  margin-top: 10px; }
+
+.flex-item:hover {
+  opacity: .5; }
+
+.uno {
+  background-image: url(../multimedia/barra.jpg);
+  background-size: cover; }
+
+.dos {
+  background-image: url(../multimedia/chopera.jpg);
+  background-size: cover; }
+
+.tres {
+  background-image: url(../multimedia/cervezas.jpg);
+  background-size: cover; }
+
+h3 {
+  color: white;
+  margin-top: 50px;
+  font-size: 2em; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

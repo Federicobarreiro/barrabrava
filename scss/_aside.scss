@@ -1,0 +1,50 @@
+.aside {
+    background: black;
+    height: 40vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.flex-item {
+    width: 25%;
+    height: 60%;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+.flex-item:hover {
+    opacity: .5;
+}
+
+
+
+.uno {
+    background-image: url(../multimedia/barra.jpg);
+    background-size: cover;
+}
+
+.dos {
+    background-image: url(../multimedia/chopera.jpg);
+    background-size: cover;
+}
+
+.tres {
+    background-image: url(../multimedia/cervezas.jpg);
+    background-size: cover;
+}
+
+h3 {
+    color: white;
+    margin-top: 50px;
+    font-size: 2em;
+    
+}
+
+
