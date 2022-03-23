@@ -1,6 +1,14 @@
 .aside {
     background: black;
-    height: 40vh;
+    height: 70vh;
+}
+
+.aside a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: 250px;
+    font-size: 30px;
 }
 
 .flex-container {
@@ -8,22 +16,22 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-
+    
 }
 
 aside .flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 25%;
     height: 60%;
     text-align: center;
-    
     margin-top: 10px;
 }
 
 aside .flex-item:hover {
     opacity: .5;
 }
-
-
 
 .uno {
     background-image: url(../multimedia/barra.jpg);

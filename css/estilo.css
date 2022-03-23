@@ -14,7 +14,8 @@
 
 .header a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Anton', sans-serif; }
 
 .logo-nav-container {
   display: flex;
@@ -69,50 +70,120 @@
     background: #585858; } }
 
 .footer {
-  background: #c8cbcc;
-  height: 10vh; }
+  background: white; }
 
-footer .container {
+.container-footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px; }
+
+.footer-hijo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px; }
+
+.footer-texto {
+  max-width: 350px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif; }
+
+.footer .fa-brands .fa-whatsapp {
+  width: 50px;
+  width: 50px; }
+
+.fa-instagram {
+  color: black; }
+
+.footer h4 {
+  margin-bottom: 20px;
+  color: #343434;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif; }
+
+.footer h5 {
+  font-family: 'Montserrat', sans-serif; }
+
+.footer-uno {
+  border-top: 1px solid black;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center; }
+
+.footer-img {
+  display: flex;
+  flex-direction: column; }
+
+.contacto-uno {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif; }
+
+.contacto-dos {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif; }
+
+.container-flex {
   display: flex; }
 
-.footer-p {
-  align-self: flex-end;
-  flex-grow: 2; }
+.form-input {
+  padding: 7px;
+  margin: 7px;
+  border: none;
+  border-bottom: 3px solid #1c7;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif; }
 
-.footer-uno img {
-  width: 30px; }
+textarea {
+  min-height: 120px;
+  resize: none; }
+
+.form-input[type="submit"] {
+  background: #1c7; }
+
+.form-input[type="submit"]:hover {
+  background: #5f9; }
 
 .main {
-  padding-top: 12rem;
+  padding-top: 9rem;
   background-image: url(../multimedia/vaso.jpg);
   background-size: cover;
-  height: 70vh; }
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column; }
 
-h1 {
-  text-align: center;
-  color: aliceblue;
-  letter-spacing: 15px; }
+.main-uno {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 15px;
+  font-weight: 250px;
+  font-size: 20px;
+  text-align: center; }
 
-.main p {
+.main-dos {
   font-size: 1.3em;
   color: white;
   text-align: center;
-  margin-top: 50px; }
+  font-family: 'Montserrat', sans-serif; }
 
 .main-nosotros {
   display: flex;
-  padding-top: 12rem;
-  height: 90vh;
-  text-align: center; }
+  padding-top: 6rem;
+  height: 90vh; }
 
 .div-uno {
   background-image: url(../multimedia/amigos.jpg);
   background-size: cover;
   height: 100%;
-  width: 30%; }
-
-.div-uno h1 {
-  color: black; }
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .div-dos {
   background: black;
@@ -123,12 +194,13 @@ h1 {
 .div-dos p {
   margin: 20px;
   color: white;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif; }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  padding-top: 12rem;
+  padding-top: 6rem;
   grid-auto-rows: 150px;
   grid-gap: 10px; }
 
@@ -148,9 +220,109 @@ img:nth-child(6) {
 img:nth-child(10) {
   grid-row: span 2; }
 
+.main-servicios {
+  padding-top: 9rem; }
+
+.main-servicios .servicios-uno {
+  background: white;
+  font-family: 'Anton', sans-serif;
+  width: 100%;
+  text-align: center;
+  padding: 10px; }
+
+.main-servicios .servicios-uno p {
+  font-family: 'Montserrat', sans-serif; }
+
+.main-servicios .servicios-dos {
+  background-image: url(../multimedia/cervezas.jpg);
+  width: 100%;
+  height: 200px;
+  margin-bottom: 5px; }
+
+.main-servicios .servicios-tres {
+  background-image: url(../multimedia/barra.jpg);
+  width: 100%;
+  height: 200px; }
+
+.main-choperas {
+  padding-top: 9rem; }
+
+.div-choperas {
+  background-image: url(../multimedia/prueba.jpeg);
+  width: 100%; }
+
+.div-choperas p {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif; }
+
+.main-cervezas {
+  padding-top: 9rem;
+  text-align: center; }
+
+.h1 {
+  color: white;
+  font-family: 'Anton', sans-serif; }
+
+.div-cervezas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 90vh; }
+
+.div-cervezas h2 {
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Anton', sans-serif; }
+
+.div-cervezas p {
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+.div-cervezas .cervezas-p1 {
+  color: black;
+  display: inline;
+  font-size: 1.3em;
+  background: white; }
+
+.div-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.cervezas-uno {
+  background-image: url(../multimedia/ipa.jpg);
+  width: 30%;
+  min-width: 300px;
+  margin: 5px 0 5px 0;
+  background-size: cover; }
+
+.cervezas-dos {
+  background-image: url(../multimedia/red.png);
+  width: 30%;
+  min-width: 300px;
+  margin: 5px 0 5px 0;
+  background-size: cover; }
+
+.cervezas-tres {
+  background-image: url(../multimedia/black.jpg);
+  width: 30%;
+  min-width: 300px;
+  margin: 5px 0 5px 0;
+  background-size: cover; }
+
 .aside {
   background: black;
-  height: 40vh; }
+  height: 70vh; }
+
+.aside a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-weight: 250px;
+  font-size: 30px; }
 
 .flex-container {
   display: flex;
@@ -159,6 +331,9 @@ img:nth-child(10) {
   align-content: center; }
 
 aside .flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 25%;
   height: 60%;
   text-align: center;
@@ -193,7 +368,20 @@ h3 {
     width: 100%;
     height: 200px; } }
 
+@media screen and (max-width: 556px) {
+  .main-nosotros {
+    display: inline-block; }
+  .div-uno {
+    width: 100%;
+    height: 50%; }
+  .div-dos {
+    width: 100%;
+    height: 50%; } }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+body {
+  background: black; }
