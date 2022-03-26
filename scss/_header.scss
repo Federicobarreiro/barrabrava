@@ -28,8 +28,8 @@
 }
 
 .logo {
-   letter-spacing: 15px; 
-   font-size: 1.3em;
+    letter-spacing: 15px;
+    font-size: 1.3em;
 }
 
 .menu-icon {
@@ -55,14 +55,14 @@
 }
 
 .navegacion ul li a:hover {
-   background: rgb(88, 88, 88); 
+    background: rgb(88, 88, 88);
 }
 
 @media only screen and (max-width: 767px) {
     .menu-icon {
-       display: block; 
-       cursor: pointer;
-       padding: 0.5rem 1rem;
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
     }
 
     .navegacion {
@@ -77,27 +77,19 @@
     .navegacion ul.show {
         display: block;
     }
-    
+
     .navegacion ul li {
         display: block;
     }
-    
+
     .navegacion ul li a {
         display: block;
         padding: 0.5rem;
         transition: all 0.4s linear;
         border-radius: 5px;
     }
-    
+
     .navegacion ul li a:hover {
-       background: rgb(88, 88, 88); 
-    }  
+        background: rgb(88, 88, 88);
+    }
 }
-
-
-
-
-
-
-
-

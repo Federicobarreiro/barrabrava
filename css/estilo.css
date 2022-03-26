@@ -86,12 +86,9 @@
   text-align: center;
   margin-top: 20px; }
 
-.footer-texto {
-  max-width: 350px;
-  font-weight: 500;
-  color: #7a7a7a;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif; }
+.footer-imagen img {
+  border-radius: 90%;
+  width: 50%; }
 
 .footer .fa-brands .fa-whatsapp {
   width: 50px;
@@ -104,7 +101,11 @@
   margin-bottom: 20px;
   color: #343434;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Anton', sans-serif; }
+
+.footer-slogan {
+  font-family: 'Montserrat', sans-serif;
+  margin: 40px; }
 
 .footer h5 {
   font-family: 'Montserrat', sans-serif; }
@@ -158,12 +159,14 @@ textarea {
   flex-direction: column; }
 
 .main-uno {
+  text-align: center; }
+
+.main-uno h1 {
   color: white;
   font-family: 'Anton', sans-serif;
-  letter-spacing: 15px;
+  letter-spacing: 5px;
   font-weight: 250px;
-  font-size: 20px;
-  text-align: center; }
+  font-size: 1.8em; }
 
 .main-dos {
   font-size: 1.3em;
@@ -174,25 +177,27 @@ textarea {
 .main-nosotros {
   display: flex;
   padding-top: 6rem;
-  height: 90vh; }
+  height: 100vh; }
 
 .div-uno {
   background-image: url(../multimedia/amigos.jpg);
   background-size: cover;
   height: 100%;
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  width: 30%; }
 
 .div-dos {
+  display: flex;
   background: black;
   height: 100%;
   width: 70%;
-  overflow-y: auto; }
+  overflow-y: auto;
+  text-align: center; }
 
 .div-dos p {
-  margin: 20px;
+  align-self: center;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
   color: white;
   letter-spacing: 2px;
   font-family: 'Montserrat', sans-serif; }
@@ -224,25 +229,40 @@ img:nth-child(10) {
   padding-top: 9rem; }
 
 .main-servicios .servicios-uno {
+  display: flex;
+  flex-direction: column;
+  display: block;
   background: white;
   font-family: 'Anton', sans-serif;
   width: 100%;
-  text-align: center;
-  padding: 10px; }
+  padding-bottom: 10px;
+  text-align: center; }
 
-.main-servicios .servicios-uno p {
-  font-family: 'Montserrat', sans-serif; }
+.servicios-uno h1 {
+  padding-bottom: 10px; }
+
+.main-servicios .servicios-uno li {
+  align-self: center;
+  list-style: none;
+  color: white;
+  background: black;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: solid 2px #1c7; }
 
 .main-servicios .servicios-dos {
   background-image: url(../multimedia/cervezas.jpg);
   width: 100%;
   height: 200px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  object-fit: cover; }
 
 .main-servicios .servicios-tres {
   background-image: url(../multimedia/barra.jpg);
   width: 100%;
-  height: 200px; }
+  height: 200px;
+  object-fit: cover; }
 
 .main-choperas {
   padding-top: 9rem; }
@@ -254,7 +274,7 @@ img:nth-child(10) {
 .div-choperas p {
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 100px 50px 100px 50px;
   font-family: 'Montserrat', sans-serif; }
 
 .main-cervezas {
@@ -353,11 +373,6 @@ aside .flex-item:hover {
 .tres {
   background-image: url(../multimedia/cervezas.jpg);
   background-size: cover; }
-
-h3 {
-  color: white;
-  margin-top: 50px;
-  font-size: 2em; }
 
 @media screen and (max-width: 556px) {
   body {

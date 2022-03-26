@@ -3,12 +3,12 @@
 }
 
 .container-footer {
-   display: flex;
-   justify-content: space-evenly; 
-   flex-wrap: wrap;
-   max-width: 1200px;
-   margin: auto;
-   padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
 .footer-hijo {
@@ -18,12 +18,9 @@
     margin-top: 20px;
 }
 
-.footer-texto {
-    max-width: 350px;
-    font-weight: 500;
-    color: #7a7a7a;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+.footer-imagen img {
+    border-radius: 90%;
+    width: 50%;
 }
 
 .footer .fa-brands .fa-whatsapp {
@@ -39,7 +36,12 @@
     margin-bottom: 20px;
     color: #343434;
     font-weight: 700;
+    font-family: 'Anton', sans-serif;
+}
+
+.footer-slogan {
     font-family: 'Montserrat', sans-serif;
+    margin: 40px;
 }
 
 .footer h5 {
@@ -93,20 +95,3 @@ textarea {
 .form-input[type="submit"]:hover {
     background: #5f9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
